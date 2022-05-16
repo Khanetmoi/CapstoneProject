@@ -25,10 +25,10 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup
 - git init
-- git clone https://github.com/Khanetmoi/MicroversePortfolio.git
+- git clone https://github.com/Khanetmoi/CapstoneProject.git
 
 ### LIVE DEMO
-* My Porfolio: [Inayat-khan](https://khanetmoi.github.io/MicroversePortfolio/)
+* Web site: [Global Students](https://khanetmoi.github.io/CapstoneProject/)
     
     
 # 👤 Author1
