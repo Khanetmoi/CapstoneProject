@@ -3,10 +3,12 @@
 # Microverse Capstone
 
 # Description the project.
-For the first milestone in the process of creating my portfolio website, I have:
+For the fifth milestone in the process of my capstone project, I have:
 
-   - set up a new repository and prepare it for development using best practices .
-   - build the first 2 sections of the mobile website using the template 4 of the Microverse portfolios.
+    
+    - Implement the section "Featured speakers" with dynamic HTML.
+    - Deploy the project and check to make sure everything works as planned.
+
 
 
 ## Built With
