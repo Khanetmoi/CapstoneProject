@@ -1,29 +1,30 @@
 body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
 .Desktop {
-    display: none;
+  display: none;
 }
 
 /* navigation */
 .hamburger {
-    width: auto;
-    height: auto;
-    margin: 20px 0 50px 10%;
+  width: auto;
+  height: auto;
+  margin: 20px 0 50px 10%;
 }
 
 .shamburger {
-    width: auto;
-    height: auto;
-    margin: 20px 0 50px 10%;
+  width: auto;
+  height: auto;
+  margin: 20px 0 50px 10%;
 }
 
 .mobile ul {
-    list-style-type: none;
-    margin: 5px 0 50px 10%;
-    padding: 0;
+  list-style-type: none;
+  margin: 5px 0 50px 10%;
+  padding: 0;
 }
 
 .mobile ul li a {
@@ -33,80 +34,120 @@ body {
 }
 
 .disappear {
-    display: none;
+  display: none;
 }
 
 .disappears {
-    display: none;
+  display: none;
 }
 
 .bars {
-    display: block;
-    width: 30px;
-    height: 4px;
-    margin: 5px 0;
-    background-color: #272a31;
-    border: 1px solid black;
+  display: block;
+  width: 30px;
+  height: 4px;
+  margin: 5px 0;
+  background-color: #272a31;
+  border: 1px solid black;
 }
 
 /* About */
 
 #About {
-    margin: 0 10% 10% 10%;
+  margin: 0 10% 10% 10%;
 }
 
 #About h1 {
-    font-size: 40px;
-    margin-bottom: 10px;
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: #ec5242;
 }
 
 #About p {
-    border: 1px solid beige;
-    font-size: 15px;
-    padding: 20px;
+  border: 1px solid beige;
+  font-size: 15px;
+  padding: 20px;
 }
 
 #About #hot-date {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 #About #event {
-    font-size: 20px;
-    font-weight: 400;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 /* programs */
 
 #programs {
-    width: 100%;
-    background-color: #272a31;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+  width: 100%;
+  background-color: #272a31;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 #programs .section-title {
-    color: white;
-    text-align: center;
+  color: white;
+  text-align: center;
 }
 
 #programs .program {
-    background-color: hsl(240deg 2% 41% / 61%);
-    margin: 2% 10%;
+  background-color: hsl(240deg 2% 41% / 61%);
+  margin: 2% 10%;
+  display: grid;
+  grid-template-columns: 1fr 4fr 5fr;
+  align-items: center;
+}
 
-    display: grid;
-    grid-template-columns: 1fr 4fr 5fr;
-    align-items: center;
+footer h2 {
+  color: #272a31;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+#board-members h2 {
+  font-size: 35px;
+}
+
+#Partners h2 {
+  text-align: center;
+}
+
+#AboutSX h2 {
+  /* color: white; */
+  text-align: center;
+  margin: 0 10%;
+}
+
+#aboutCT h2 {
+  text-align: center;
 }
 
 #programs .program h2 {
-    color: #ec5242;
+  color: #ec5242;
 }
 
 #programs .program i {
-    color: #6442ec;
-    margin-left: 20px;
-    font-size: 20px;
+  color: #6442ec;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+#board-members p {
+  font-size: 15px;
+}
+
+#aboutWS p {
+  border: 1px solid black;
+  background-color: white;
+  font-size: 15px;
+  padding: 20px;
+}
+
+#AboutSX p {
+  text-align: center;
+  margin: 0 10%;
 }
 
 #programs .program p {
@@ -125,49 +166,112 @@ body {
 
 /* board members */
 
-.board-members {
+#board-members {
   background-color: white;
+  padding: 0 10%;
 }
 
 #board-members .title {
   text-align: center;
 }
 
-#board-members img {
-    width: 126%;
-    background-color: violet;
-    margin: 10px;
+#board-members #im1 {
+  background-image: url('../images/profile1.jpeg');
+  background-size: cover;
+  width: 30%;
+  height: 30%;
+  background-color: violet;
+  margin: 10px;
+}
+
+#board-members #im2 {
+  background-image: url('../images/profile2.jpeg');
+  background-size: cover;
+  width: 30%;
+  height: 30%;
+  background-color: violet;
+  margin: 10px;
+}
+
+#board-members #im3 {
+  background-image: url('../images/profile3.jpeg');
+  background-size: cover;
+  width: 30%;
+  height: 30%;
+  background-color: violet;
+  margin: 10px;
+}
+
+#board-members #im4 {
+  background-image: url('../images/profile4.jpeg');
+  background-size: cover;
+  width: 30%;
+  height: 30%;
+  background-color: violet;
+  margin: 10px;
+}
+
+#board-members #im5 {
+  background-image: url('../images/profile5.jpeg');
+  background-size: cover;
+  width: 30%;
+  height: 30%;
+  background-color: violet;
+  margin: 10px;
+}
+
+#board-members #im6 {
+  background-image: url('../images/profile6.jpeg');
+  background-size: cover;
+  width: 30%;
+  height: 30%;
+  background-color: violet;
+  margin: 10px;
 }
 
 #board-members .members {
-    height: 65vh;
-    overflow-y: hidden;
+  height: 65vh;
+  overflow-y: hidden;
 }
-
 
 #board-members .member {
   display: flex;
   width: 100%;
 }
 
+#board-members .member .reference {
+  width: 70%;
+  height: 30%;
+}
+
+#board-members .member .reference h2 {
+  font-size: 25px;
+}
+
+footer h3 {
+  color: grey;
+  font-size: 15px;
+  font-weight: 300;
+}
+
 #board-members h3 {
-    color: #ec5242;
-    font-size: 25px;
+  color: #ec5242;
+  font-size: 25px;
 }
 
-#board-members p {
-    font-size: 15px;
+#board-members .member .reference h3 {
+  font-size: 15px;
 }
 
-#board-members h2 {
-    font-size: 35px;
+#board-members .member .reference p {
+  font-size: 10px;
 }
 
 #board-members button {
-    width: 80%;
-    height: 50px;
-    margin: 10%;
-    border: 1px solid black;
+  width: 80%;
+  height: 50px;
+  margin: 10%;
+  border: 1px solid black;
 }
 
 /* Partners */
@@ -176,171 +280,335 @@ body {
   background-color: grey;
 }
 
-#Partners h2 {
-    text-align: center;
-}
-
 .partners {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .partners .unicef {
-    width: 25%;
-    aspect-ratio: 1;
-    margin: 0 2%;
-    background-image: url('../logo/unicef.jpeg');
-    background-size: cover;
+  width: 25%;
+  aspect-ratio: 1/1;
+  margin: 0 2%;
+  background-image: url('../logo/unicef.jpeg');
+  background-size: cover;
 }
 
 .partners .google {
-    width: 20%;
-    aspect-ratio: 1;
-    margin: 0 5%;
-    background-image: url('../logo/google.png');
-    background-size: cover;
+  width: 20%;
+  aspect-ratio: 1/1;
+  margin: 0 5%;
+  background-image: url('../logo/google.png');
+  background-size: cover;
 }
 
 .partners .Facebook {
-    width: 20%;
-    aspect-ratio: 1;
-    margin: 0 2%;
-    background-image: url('../logo/Facebook.png');
-    background-size: cover;
+  width: 20%;
+  aspect-ratio: 1/1;
+  margin: 0 2%;
+  background-image: url('../logo/Facebook.png');
+  background-size: cover;
 }
 
 .partners .unesco {
-    width: 20%;
-    aspect-ratio: 1;
-    margin: 0 2%;
-    background-image: url('../logo/unesco.png');
-    background-size: cover;
+  width: 20%;
+  aspect-ratio: 1/1;
+  margin: 0 2%;
+  background-image: url('../logo/unesco.png');
+  background-size: cover;
 }
+
 /* footer */
 
 footer {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 10% 10% 10% 10%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10% 10% 10% 10%;
 }
-
-footer h2 {
-    color: #272a31;
-    font-size: 30px;
-    font-weight: 600;
-}
-
-footer h3 {
-    color:grey;
-    font-size: 15px;
-    font-weight: 300;
-}
-
-/* desktop main page */
-@media all and (min-width: 768px) {
-    
-}
-
 
 /* About page */
 
 /* About Workshop  */
 #aboutWS {
-    padding: 0 10% 10% 10%;
+  background-image: url('../images/30Patterns.jpeg');
+  padding: 0 10% 10% 10%;
 }
 
 #aboutWS h1 {
-    font-size: 40px;
-    margin-bottom: 10px;
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: #ec5242;
 }
 
-#aboutWS p {
-  border: 1px solid black;
+#aboutWS span,
+#aboutWS a {
   background-color: white;
-  font-size: 15px;
-  padding: 20px;
 }
+
 /* contest */
 #aboutCT {
-    padding: 0 10% 10% 10%;
-}
-
-#aboutCT h2 {
-    text-align: center;
+  padding: 0 10% 10% 10%;
 }
 
 #aboutCT #image-euler {
-    border: 1px solid yellow;
-    background-image: url('../images/FieldsMedalFront.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    aspect-ratio: 1/1;
+  border: 1px solid yellow;
+  background-image: url('../images/FieldsMedalFront.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  aspect-ratio: 1/1;
 }
 
+#AboutSX #imageSX2021 h2 {
+  color: white;
+}
 
+#AboutSX #imageSX2020 h2 {
+  color: white;
+}
 
 #aboutCT #image-euler #filter h2 {
-    color: white;
-    font-size: 40px;
+  color: white;
+  font-size: 40px;
+}
+
+#AboutSX #imageSX2020 p {
+  color: white;
+}
+
+#AboutSX #imageSX2021 p {
+  color: white;
 }
 
 #aboutCT #image-euler #filter p {
-    color: white;
-    font-size: 20px;
+  color: white;
+  font-size: 20px;
 }
 
 /* student exchange */
 
-#AboutSX h2 {
-    text-align: center;
-    margin: 0 10%;
-}
-
-#AboutSX p {
-    text-align: center;
-    margin: 0 10%;
-}
-
 #AboutSX #imageSX2021 {
-    background-image: url('../images/kids.jpg');
-    width: 80%;
-    margin: 10%;
-    aspect-ratio: 1;
-    background-size: cover;
-    background-repeat: no-repeat;
+  background-image: url('../images/kids.jpg');
+  width: 80%;
+  margin: 10%;
+  aspect-ratio: 1/1;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #AboutSX #imageSX2020 {
-    background-image: url('../images/children.jpg');
-    background-repeat: no-repeat;
+  background-image: url('../images/children.jpg');
+  background-repeat: no-repeat;
+  width: 80%;
+  margin: 10%;
+  aspect-ratio: 1/1;
+  background-size: cover;
+}
+
+#AboutSX #imageSX2021 .filter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  aspect-ratio: 1/1;
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+#AboutSX #imageSX2020 .filter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  aspect-ratio: 1/1;
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+/* desktop main page */
+@media all and (min-width: 768px) {
+  .mobile {
+    display: none;
+  }
+
+  .Desktop {
+    display: block;
+  }
+
+  ul li {
+    list-style: none;
+  }
+
+  nav .social-media {
+    display: flex;
+    justify-content: right;
+    padding: 0 10%;
+    background-color: #000;
+  }
+
+  .navigation li {
+    margin: 10px;
+  }
+
+  nav .social-media li {
+    margin: 10px;
+    color: white;
+  }
+
+  .full-nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10%;
+  }
+
+  .navigation {
+    display: flex;
+  }
+
+  #About h1 {
+    font-size: 100px;
+  }
+
+  #About p {
+    font-size: 30px;
+    text-align: center;
+    width: 70%;
+    border: white;
+  }
+
+  #About #hot-date {
+    color: rgb(85, 83, 83);
+    font-size: 50px;
+  }
+
+  #About #event {
+    font-size: 30px;
+  }
+
+
+  /* Programs */
+
+  #programs {
+    height: 50vh;
+  }
+
+  .programs-flex {
+    display: flex;
+    justify-content: center;
+  }
+
+  #programs .program {
+    margin: 5px 10px;
+    width: 14%;
+    display: block;
+    padding: 5px;
+    text-align: center;
+  }
+
+  #programs .remove {
+    display: none;
+  }
+
+  #programs button {
+    width: 30%;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 30px 33% 10px 33%;
+    font-size: 20px;
+    font-weight: 60;
+  }
+
+  /* speakers */
+  #board-members {
+    height: 70vh;
+  }
+
+  #board-members .members {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+  }
+
+  #board-members .members .member img {
+    aspect-ratio: 1/1;
+    background-size: 100% 100%;
+  }
+
+  .reference {
+    width: 30%;
+  }
+
+  /* partners */
+
+  #Partners {
+    /* height: 20vh; */
+    padding: 50px;
+  }
+
+  #Partners .partners div {
+    width: 100px;
+    height: 100px;
+  }
+
+  /* About page */
+
+  #aboutWS h1 {
+    font-size: 100px;
+    text-align: center;
+  }
+
+  #aboutWS p {
+    font-size: 20px;
+  }
+
+  #aboutWS span {
+    display: block;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  #aboutWS a {
+    display: block;
+    margin: 10px 33%;
+    text-align: center;
+  }
+
+  #aboutCT h2 {
+    text-align: center;
+    margin: 50px 10%;
+    font-size: 30px;
+  }
+
+  #aboutCT p {
+    margin: 20px 20%;
+  }
+
+  #aboutCT #image-euler {
+    border: 1px solid yellow;
+    background-image: url('../images/FieldsMedalFront.jpg');
+    background-size: 100% 100%;
     width: 80%;
-    margin: 10%;
-    aspect-ratio: 1;
-    background-size: cover;
-}
+    margin: 0 10%;
+    aspect-ratio: 2/1;
+  }
 
-#AboutSX #imageSX2021 #filter {
+  /* Sx */
+
+  #AboutSX h2 {
+    text-align: center;
+    margin: 50px 10%;
+    font-size: 30px;
+  }
+
+  #AboutSX p {
+    text-align: center;
+    margin: 50px 10%;
+    font-size: 20px;
+  }
+
+  .AboutSx-flex {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    aspect-ratio: 1;
-    background-color: rgba(255, 0, 0, 0.5);
+  }
 }
-
-#AboutSX #imageSX2020 #filter {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    aspect-ratio: 1;
-    background-color: rgba(255, 0, 0, 0.5);
-}
-
-
-
