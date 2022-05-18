@@ -3,3 +3,344 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
+.Desktop {
+    display: none;
+}
+
+/* navigation */
+.hamburger {
+    width: auto;
+    height: auto;
+    margin: 20px 0 50px 10%;
+}
+
+.shamburger {
+    width: auto;
+    height: auto;
+    margin: 20px 0 50px 10%;
+}
+
+.mobile ul {
+    list-style-type: none;
+    margin: 5px 0 50px 10%;
+    padding: 0;
+}
+
+.mobile ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #000;
+}
+
+.disappear {
+    display: none;
+}
+
+.disappears {
+    display: none;
+}
+
+.bars {
+    display: block;
+    width: 30px;
+    height: 4px;
+    margin: 5px 0;
+    background-color: #272a31;
+    border: 1px solid black;
+}
+
+/* About */
+
+#About {
+    margin: 0 10% 10% 10%;
+}
+
+#About h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+#About p {
+    border: 1px solid beige;
+    font-size: 15px;
+    padding: 20px;
+}
+
+#About #hot-date {
+    font-size: 30px;
+}
+
+#About #event {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* programs */
+
+#programs {
+    width: 100%;
+    background-color: #272a31;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#programs .section-title {
+    color: white;
+    text-align: center;
+}
+
+#programs .program {
+    background-color: hsl(240deg 2% 41% / 61%);
+    margin: 2% 10%;
+
+    display: grid;
+    grid-template-columns: 1fr 4fr 5fr;
+    align-items: center;
+}
+
+#programs .program h2 {
+    color: #ec5242;
+}
+
+#programs .program i {
+    color: #6442ec;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+#programs .program p {
+  color: white;
+}
+
+#programs button {
+  background-color: #ec5242;
+  color: white;
+  border: none;
+  width: 80%;
+  aspect-ratio: 5/1;
+  margin: 10% 10%;
+  font-size: 25px;
+}
+
+/* board members */
+
+.board-members {
+  background-color: white;
+}
+
+#board-members .title {
+  text-align: center;
+}
+
+#board-members img {
+    width: 126%;
+    background-color: violet;
+    margin: 10px;
+}
+
+#board-members .members {
+    height: 65vh;
+    overflow-y: hidden;
+}
+
+
+#board-members .member {
+  display: flex;
+  width: 100%;
+}
+
+#board-members h3 {
+    color: #ec5242;
+    font-size: 25px;
+}
+
+#board-members p {
+    font-size: 15px;
+}
+
+#board-members h2 {
+    font-size: 35px;
+}
+
+#board-members button {
+    width: 80%;
+    height: 50px;
+    margin: 10%;
+    border: 1px solid black;
+}
+
+/* Partners */
+
+#Partners {
+  background-color: grey;
+}
+
+#Partners h2 {
+    text-align: center;
+}
+
+.partners {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.partners .unicef {
+    width: 25%;
+    aspect-ratio: 1;
+    margin: 0 2%;
+    background-image: url('../logo/unicef.jpeg');
+    background-size: cover;
+}
+
+.partners .google {
+    width: 20%;
+    aspect-ratio: 1;
+    margin: 0 5%;
+    background-image: url('../logo/google.png');
+    background-size: cover;
+}
+
+.partners .Facebook {
+    width: 20%;
+    aspect-ratio: 1;
+    margin: 0 2%;
+    background-image: url('../logo/Facebook.png');
+    background-size: cover;
+}
+
+.partners .unesco {
+    width: 20%;
+    aspect-ratio: 1;
+    margin: 0 2%;
+    background-image: url('../logo/unesco.png');
+    background-size: cover;
+}
+/* footer */
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10% 10% 10% 10%;
+}
+
+footer h2 {
+    color: #272a31;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+footer h3 {
+    color:grey;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+/* desktop main page */
+@media all and (min-width: 768px) {
+    
+}
+
+
+/* About page */
+
+/* About Workshop  */
+#aboutWS {
+    padding: 0 10% 10% 10%;
+}
+
+#aboutWS h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+#aboutWS p {
+  border: 1px solid black;
+  background-color: white;
+  font-size: 15px;
+  padding: 20px;
+}
+/* contest */
+#aboutCT {
+    padding: 0 10% 10% 10%;
+}
+
+#aboutCT h2 {
+    text-align: center;
+}
+
+#aboutCT #image-euler {
+    border: 1px solid yellow;
+    background-image: url('../images/FieldsMedalFront.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+
+
+
+#aboutCT #image-euler #filter h2 {
+    color: white;
+    font-size: 40px;
+}
+
+#aboutCT #image-euler #filter p {
+    color: white;
+    font-size: 20px;
+}
+
+/* student exchange */
+
+#AboutSX h2 {
+    text-align: center;
+    margin: 0 10%;
+}
+
+#AboutSX p {
+    text-align: center;
+    margin: 0 10%;
+}
+
+#AboutSX #imageSX2021 {
+    background-image: url('../images/kids.jpg');
+    width: 80%;
+    margin: 10%;
+    aspect-ratio: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#AboutSX #imageSX2020 {
+    background-image: url('../images/children.jpg');
+    background-repeat: no-repeat;
+    width: 80%;
+    margin: 10%;
+    aspect-ratio: 1;
+    background-size: cover;
+}
+
+#AboutSX #imageSX2021 #filter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    aspect-ratio: 1;
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+#AboutSX #imageSX2020 #filter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    aspect-ratio: 1;
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+
+
