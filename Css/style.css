@@ -1,3 +1,6 @@
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 body {
   margin: 0;
   padding: 0;
@@ -53,12 +56,18 @@ body {
 /* About */
 
 #About {
-  margin: 0 10% 10% 10%;
+  background-image: url('../images/back.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(237, 236, 230);
+  padding: 0 10% 10% 10%;
 }
 
 #About h1 {
+  font-family: 'COCOGOOSE', sans-serif;
   font-size: 40px;
-  margin-bottom: 10px;
+  margin: 0;
+  padding: 0;
   color: #ec5242;
 }
 
@@ -96,42 +105,49 @@ body {
   background-color: hsl(240deg 2% 41% / 61%);
   margin: 2% 10%;
   display: grid;
-  grid-template-columns: 1fr 4fr 5fr;
+  grid-template-columns: 1fr 2fr 2fr;
   align-items: center;
 }
 
 footer h2 {
+  font-family: 'Lato', sans-serif;
   color: #272a31;
   font-size: 30px;
   font-weight: 600;
 }
 
 #board-members h2 {
+  font-family: 'Lato', sans-serif;
   font-size: 35px;
 }
 
 #Partners h2 {
+  font-family: 'Lato', sans-serif;
   text-align: center;
 }
 
 #AboutSX h2 {
-  /* color: white; */
+  font-family: 'Lato', sans-serif;
   text-align: center;
   margin: 0 10%;
 }
 
 #aboutCT h2 {
+  font-family: 'Lato', sans-serif;
   text-align: center;
 }
 
 #programs .program h2 {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
   color: #ec5242;
+  margin: 15px;
 }
 
 #programs .program i {
-  color: #6442ec;
-  margin-left: 20px;
-  font-size: 20px;
+  color: #ec5242;
+  font-size: 40px;
+  margin: 10px;
 }
 
 #board-members p {
@@ -176,56 +192,61 @@ footer h2 {
 }
 
 #board-members #im1 {
-  background-image: url('../images/profile1.jpeg');
-  background-size: cover;
+  background-image: url('../images/checker.png');
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
   width: 30%;
-  height: 30%;
-  background-color: violet;
   margin: 10px;
 }
 
+#board-members #im1 img,
+#board-members #im2 img,
+#board-members #im3 img,
+#board-members #im4 img,
+#board-members #im5 img,
+#board-members #im6 img {
+  margin: 10% 0 0 20%;
+  width: 80%;
+  aspect-ratio: 1/1;
+}
+
 #board-members #im2 {
-  background-image: url('../images/profile2.jpeg');
-  background-size: cover;
+  background-image: url('../images/checker.png');
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
   width: 30%;
-  height: 30%;
-  background-color: violet;
   margin: 10px;
 }
 
 #board-members #im3 {
-  background-image: url('../images/profile3.jpeg');
-  background-size: cover;
+  background-image: url('../images/checker.png');
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
   width: 30%;
-  height: 30%;
-  background-color: violet;
   margin: 10px;
 }
 
 #board-members #im4 {
-  background-image: url('../images/profile4.jpeg');
-  background-size: cover;
+  background-image: url('../images/checker.png');
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
   width: 30%;
-  height: 30%;
-  background-color: violet;
   margin: 10px;
 }
 
 #board-members #im5 {
-  background-image: url('../images/profile5.jpeg');
-  background-size: cover;
+  background-image: url('../images/checker.png');
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
   width: 30%;
-  height: 30%;
-  background-color: violet;
   margin: 10px;
 }
 
 #board-members #im6 {
-  background-image: url('../images/profile6.jpeg');
-  background-size: cover;
+  background-image: url('../images/checker.png');
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
   width: 30%;
-  height: 30%;
-  background-color: violet;
   margin: 10px;
 }
 
@@ -245,6 +266,7 @@ footer h2 {
 }
 
 #board-members .member .reference h2 {
+  font-family: 'Lato', sans-serif;
   font-size: 25px;
 }
 
@@ -331,19 +353,16 @@ footer {
 
 /* About Workshop  */
 #aboutWS {
-  background-image: url('../images/30Patterns.jpeg');
+  background-image: url('../images/back2.jpg');
+  background-size: cover;
   padding: 0 10% 10% 10%;
 }
 
 #aboutWS h1 {
   font-size: 40px;
-  margin-bottom: 10px;
   color: #ec5242;
-}
-
-#aboutWS span,
-#aboutWS a {
-  background-color: white;
+  margin: 0;
+  padding: 0;
 }
 
 /* contest */
@@ -361,10 +380,12 @@ footer {
 }
 
 #AboutSX #imageSX2021 h2 {
+  font-family: 'Lato', sans-serif;
   color: white;
 }
 
 #AboutSX #imageSX2020 h2 {
+  font-family: 'Lato', sans-serif;
   color: white;
 }
 
@@ -443,12 +464,24 @@ footer {
   nav .social-media {
     display: flex;
     justify-content: right;
+    margin: 0;
     padding: 0 10%;
     background-color: #000;
   }
 
   .navigation li {
-    margin: 10px;
+    margin: 0 30px;
+  }
+
+  .navigation li a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .red-member {
+    color: red;
+    padding: 2px;
+    border: 2px solid red;
   }
 
   nav .social-media li {
@@ -520,14 +553,17 @@ footer {
 
   /* speakers */
   #board-members {
-    height: 70vh;
+    /* height: 70vh; */
+    padding: 0;
+    margin-bottom: 2%;
   }
 
   #board-members .members {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    height: auto;
+    margin: 0 10%;
   }
 
   #board-members .members .member img {
@@ -536,7 +572,7 @@ footer {
   }
 
   .reference {
-    width: 30%;
+    /* width: 30%; */
   }
 
   /* partners */
@@ -575,6 +611,7 @@ footer {
   }
 
   #aboutCT h2 {
+    font-family: 'Lato', sans-serif;
     text-align: center;
     margin: 50px 10%;
     font-size: 30px;
@@ -596,6 +633,7 @@ footer {
   /* Sx */
 
   #AboutSX h2 {
+    font-family: 'Lato', sans-serif;
     text-align: center;
     margin: 50px 10%;
     font-size: 30px;
