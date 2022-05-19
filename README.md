@@ -12,6 +12,10 @@ For the fifth milestone in the process of my capstone project, I have:
 # Acknowledgements
    - Thanks to [Cindy Shin](https://www.behance.net/adagio07) the [author of the original design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
+# Video Presentation
+
+  - [my video](https://www.loom.com/share/cdcecb86d0ca4cc187f6efd74a2da17b)
+
 
 ## Built With
    -  HTML5
