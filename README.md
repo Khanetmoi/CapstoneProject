@@ -9,6 +9,8 @@ For the fifth milestone in the process of my capstone project, I have:
     - Implement the section "Featured speakers" with dynamic HTML.
     - Deploy the project and check to make sure everything works as planned.
 
+# Acknowledgements
+   - Thanks to [Cindy Shin](https://www.behance.net/adagio07) the [author of the original design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
 
 ## Built With
