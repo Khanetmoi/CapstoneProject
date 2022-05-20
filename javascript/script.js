@@ -26,26 +26,6 @@ hamburger.addEventListener('click', () => {
   navlist.classList.toggle('disappear');
 });
 
-// see more programs
-
-const More = document.querySelector('#mores');
-const sixth = document.querySelector('.sixth');
-const fifth = document.querySelector('.fifth ');
-
-let bs = 1;
-
-More.addEventListener('click', () => {
-  sixth.classList.toggle('remove');
-  fifth.classList.toggle('remove');
-  if (bs === 1) {
-    More.innerText = 'Less';
-    bs -= 1;
-  } else {
-    More.innerText = 'more';
-    bs += 1;
-  }
-});
-
 const card = [
   {
     id: 1,
