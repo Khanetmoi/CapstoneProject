@@ -521,21 +521,56 @@ footer {
 
   /* Programs */
 
-  #programs {
+  /* #programs {
     height: 50vh;
-  }
+  } */
 
   .programs-flex {
     display: flex;
     justify-content: center;
+    margin: 10px;
+    padding: 0;
   }
 
   #programs .program {
     margin: 5px 10px;
     width: 14%;
-    display: block;
-    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
     text-align: center;
+  }
+
+  #programs .program:hover {
+    border: 2px solid white;
+  }
+
+  #aboutCT h2 {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin: 50px 10%;
+    font-size: 30px;
+  }
+
+  #AboutSX h2 {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin: 50px 10%;
+    font-size: 30px;
+  }
+
+  #programs .program h2 {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    color: #ec5242;
+    margin: 15px;
+    font-size: 20px;
+  }
+
+  #programs .program i {
+    font-size: 30px;
   }
 
   #programs .remove {
@@ -610,13 +645,6 @@ footer {
     text-align: center;
   }
 
-  #aboutCT h2 {
-    font-family: 'Lato', sans-serif;
-    text-align: center;
-    margin: 50px 10%;
-    font-size: 30px;
-  }
-
   #aboutCT p {
     margin: 20px 20%;
   }
@@ -631,13 +659,6 @@ footer {
   }
 
   /* Sx */
-
-  #AboutSX h2 {
-    font-family: 'Lato', sans-serif;
-    text-align: center;
-    margin: 50px 10%;
-    font-size: 30px;
-  }
 
   #AboutSX p {
     text-align: center;
